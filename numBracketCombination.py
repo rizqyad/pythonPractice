@@ -1,4 +1,3 @@
-from itertools import count
 from math import factorial
 
 def countBraComb(num):
@@ -18,4 +17,4 @@ def countBraComb(num):
 if __name__ == "__main__":
     number_of_bracket = 5
     number_of_possible_combination = countBraComb(number_of_bracket)
-    print(f"With {number_of_bracket} brackets, there are {number_of_possible_combination} possible combination.")
+    print(f"There are {number_of_possible_combination}  combinations that can be generated using {number_of_bracket} brackets.")
