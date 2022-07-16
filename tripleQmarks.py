@@ -26,7 +26,6 @@ def questionsMarks(strParam):
 
     return True if tenTotal else False # return true if number pairs sum is equal to 10 otherwise, false.
     
-# keep this function call here 
 if __name__ == "__main__":
     string_list = ['aa6?9', 'acc?7??sss?3rr1??????5']
     print("There are three question mark between two number pairs that sum to 10. ")
